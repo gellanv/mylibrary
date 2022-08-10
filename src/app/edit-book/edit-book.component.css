@@ -1,0 +1,32 @@
+.editbook {
+	padding: 10px;
+    border: solid 1px;
+    border-radius: 10px;
+}
+.form-group {
+	padding: 5px;
+}
+h3 {border-bottom: 1px solid;}
+
+label {
+	text-align: right;
+    padding: 10px;
+}
+input {
+	border: 1px solid!important;
+    border-radius: 5px;
+    margin: 5px;
+}
+textarea {
+	border-radius: 10px;
+	width: 100%;
+}
+button {
+	padding: 7px 30px!important;
+}
+
+.firstbutton {
+	text-align: right;}
+.list {
+padding: 10px;
+}

@@ -1,0 +1,21 @@
+.content {
+    overflow-y: scroll;
+	height:130px;
+}
+.close {
+    float: right;
+    border: none;
+    background: none;
+}
+h1 {position: relative;}
+img {
+    width: 50%;
+    margin: 3%;
+}
+.block-left {
+    text-align: center;
+}
+ul li {
+    list-style-type: none;
+}
+h3, p { margin: 0;}

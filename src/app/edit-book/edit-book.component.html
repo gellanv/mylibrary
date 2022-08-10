@@ -1,0 +1,60 @@
+<div class="row">
+<div class="col-lg-12">
+    <div class="editbook">
+    <div class="row">
+        <div class="col-lg-12">
+        <h3>{{textAction}}</h3>
+        </div>
+    </div>
+    <div class="row">
+        <form #myForm="ngForm" class="form-group">
+            <div class="row">
+                <div class="col">
+                <input type="hidden" [ngModel]="curentBook.id" name="id">
+                <div class="form-group row">
+                    <label class="col-lg-3 col-form-label">Title</label>
+                    <div class="col-lg-7">
+                    <input type="text" class="form-control-plaintext" [ngModel]="curentBook.title" name="title">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-lg-3"for="files">Cover</label>
+                    <div class="col-lg-7">
+                    <input type="file" class="form-control-file" id="files" [ngModel]="curentBook.cover" name="cover">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-lg-3 col-form-label">Genre</label>
+                    <div class="col-lg-7">
+                    <input type="text" class="form-control-plaintext" [ngModel]="curentBook.genre" name="genre">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-lg-3 col-form-label">Author</label>
+                    <div class="col-lg-7">
+                    <input type="text" class="form-control-plaintext" [ngModel]="curentBook.author" name="author">
+                    </div>
+                </div>
+                </div>
+                <div class="col">
+                    <div class="form-group row">
+                    <label class="col-lg-3 col-form-label">Content</label>
+                    <div class="col-lg-8">
+                    <textarea name="Text1" rows="9" [ngModel]="curentBook.content" name="content"></textarea>
+                    </div>
+                </div>                
+                </div>                      
+            </div>
+            <div class="row">
+                <div class="col firstbutton">
+                    <button  class="btn btn-default" (click)="submit(myForm)"  class="btn btn-primary mb-2">Add</button>
+                </div>
+                <div class="col">
+                    <button class="btn btn-warning mb-2" (click)="clearForm(myForm)">Clear</button>
+                </div>
+            </div>                    
+        </form>    
+    </div>
+    </div>
+    </div>
+</div>

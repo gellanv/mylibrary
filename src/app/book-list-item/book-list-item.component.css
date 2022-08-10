@@ -1,0 +1,24 @@
+ li {display: inline-block ;
+    padding: 10px;}
+.list-item {
+	border: 1px solid;
+	border-radius: 5px;
+}
+.cover {
+	width: 70%;
+    padding: 5%;
+    text-align: center;
+}
+img {
+	width: inherit;
+}
+button {
+    border: 1px solid #ded8d8;
+    margin: 5px;
+}
+h4 {   
+ margin-top: 10%;
+}
+.list-item p {
+	margin-top: 15%;
+}

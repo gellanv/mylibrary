@@ -1,0 +1,26 @@
+.booklist {
+	margin-top: 10px;
+}
+.list {
+	border: 1px solid;
+	border-radius: 5px;	
+	margin-bottom: 20px;
+	overflow-y: scroll;
+	height: 300px;
+}
+ul li {display: inline-block ;
+    padding: 10px;}
+.tab-booklist {
+	padding: 0 15px;
+	margin: 0;
+}
+.tab-booklist li {
+	border-top: 1px solid;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    padding: 10px 50px;
+}
+.tab-booklist li:hover {
+	box-shadow: 0px -1px 3px 0px;
+	cursor: pointer;
+}
